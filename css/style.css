@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    width: 900px;
+    width: 1030px;
     height: 55px;
     background: #1a2028;
     margin: auto;
@@ -53,4 +53,40 @@ header label img{
     margin-top: -27px;
     margin-left: 20%;
     position: absolute;
+}
+
+header ul{
+    margin-top: 18px;
+    margin-left: 7%;
+    display: flex;
+}
+
+header ul li, a{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 5%;
+}
+
+header ul #actual{
+    width: 30px;
+    background: #ad00ff;
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+header #campanita{
+    width: 15px;
+    margin-left: 8%;
+}
+
+header #salomon{
+    width: 40px;
+    margin-left: 3%;
 }
