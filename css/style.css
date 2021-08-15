@@ -17,6 +17,9 @@ header{
     margin: auto;
     margin-top: 3%;
     border-radius: 7px;
+    border-left-color: #ad00ff;
+    border-left-width: 1px;
+    border-left-style: solid;
     display: flex;
 }
 
@@ -92,17 +95,17 @@ header #salomon{
 }
 
 .container-cards{
-    width: 100%;
-    height: 30rem;
     margin-top: 3%;
+    display: flex;
 }
 
 .container-cards .btc-card{
     width: 410px;
     height: 600px;
     background: #1a2028;
-    margin-left: 17%;
+    margin-left: 10%;
     border-radius: 12px;
+    box-shadow: 0px 0px 1px 1px #ad00ff;
 }
 
 .btc-card img{
@@ -134,4 +137,80 @@ header #salomon{
     margin: auto;
     margin-top: 20px;
     border-radius: 12px;
+}
+
+.login-card{
+    width: 581px;
+    height: 600px;
+    background: #1a2028;
+    margin-left: 3%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 1px 1px #ad00ff;
+}
+
+.login-card img{
+    width: 100px;
+    margin: auto;
+    margin-top: 5%;
+    display: block;
+}
+
+.login-card input{
+    width: 475px;
+    height: 69px;
+    background: #34373b;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-radius: 20px;
+    border-style: none;
+    padding-left: 20px;
+}
+
+.login-card p{
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.buttons-socials{
+    width: 400px;
+    height: 60px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    padding: 3px;
+}
+
+.buttons-socials .button-login{
+    width: 200px;
+    height: 60px;
+    background: #34373b;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.buttons-socials .button-login img{
+    width: 30px;
+}
+
+.login-card .button-ingresar{
+    width: 500px;
+    height: 60px;
+    background: #ad00ff;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+
+.button-ingresar p{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 400;
+    padding: 15px;
 }
