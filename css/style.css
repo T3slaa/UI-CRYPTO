@@ -246,9 +246,7 @@ header #salomon{
 }
 
 .profile-card .buttons-container{
-    width: 300px;
-    height: 40px;
-    margin: auto;
+    margin-left: 12%;
     margin-top: 20px;
     padding: 3px;
     display: flex;
@@ -267,5 +265,45 @@ header #salomon{
     font-size: 15px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: 700;
+    text-align: center;
+}
+
+.buttons-container .followers{
+    width: 120px;
+    height: 30px;
+    margin-left: 3.7%;
+    border-color: #34373b;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    padding: 3px;
+    position: absolute;
+}
+
+.followers p{
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.buttons-container .following{
+    width: 120px;
+    height: 30px;
+    margin-left: 10.5%;
+    border-color: #34373b;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    padding: 3px;
+    position: absolute;
+}
+
+.following p{
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 400;
     text-align: center;
 }
