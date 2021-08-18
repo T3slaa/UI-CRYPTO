@@ -135,7 +135,7 @@ header #salomon{
     height: 40px;
     background: #ad00ff;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 12px;
 }
 
@@ -303,6 +303,35 @@ header #salomon{
 .following p{
     color: #fff;
     font-size: 17px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.profile-card .cryptomonedas-container{
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.cryptomonedas-container img{
+    width: 50px;
+    margin-left: 6%;
+    display: inline-block;
+}
+
+.profile-card .button-contactar{
+    width: 320px;
+    height: 60px;
+    background: #ad00ff;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 13px;
+}
+
+.button-contactar p{
+    color: #fff;
+    font-size: 22px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: 400;
     text-align: center;
