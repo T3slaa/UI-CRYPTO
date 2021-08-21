@@ -336,3 +336,53 @@ header #salomon{
     font-weight: 400;
     text-align: center;
 }
+
+.crypto-bolsa{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.crypto-bolsa .crypto-title{
+    width: 1500px;
+    height: 30px;
+}
+
+.crypto-title ul{
+    display: flex;
+}
+
+.crypto-title ul li{
+    color: #fff;
+    font-size: 27px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 700;
+    list-style: none;
+    margin: auto;
+    margin-left: 8.7%;
+}
+
+.crypto-bolsa .valores-cryptos{
+    width: 1480px;
+    height: 70px;
+    background: #1a2028;
+    margin-left: 6%;
+    border-radius: 20px;
+    border-color: #ad00ff;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+}
+
+.valores-cryptos img{
+    width: 50px;
+    margin-left: 1%;
+}
+
+.valores-cryptos h4{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-left: 1%;
+}
